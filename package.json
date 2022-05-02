@@ -1,0 +1,10 @@
+{
+  "name": "forms-bonito",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "puppeteer": "^13.7.0"
+  }
+}
