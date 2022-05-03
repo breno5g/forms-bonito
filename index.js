@@ -3,12 +3,12 @@ import puppeteer from 'puppeteer';
 const URL =
   'https://be-trybe.typeform.com/to/NXygjr?typeform-source=playbook.betrybe.com#cohort_name=Turma%2017';
 
-const textArray = ['Bot bonito', 'Meireles é feio', 'Cabeça de bola de bilhar'];
+const textArray = ['Bot bonito', 'Meireles é feio', 'Pedro cabeça de bilhar'];
 
 const type = async (page, text) => {
   await page.waitForTimeout(1000);
   await page.keyboard.type(text);
-  await page.waitForTimeout(3000);
+  await page.waitForTimeout(5000);
   await page.keyboard.press('Enter');
 };
 
