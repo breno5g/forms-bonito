@@ -8,8 +8,8 @@ const textArray = ['Bot bonito', 'Meireles é feio', 'Cabeça de bola de bilhar'
 const type = async (page, text) => {
   await page.waitForTimeout(1000);
   await page.keyboard.type(text);
-  await page.keyboard.press('Enter');
   await page.waitForTimeout(3000);
+  await page.keyboard.press('Enter');
 };
 
 (async () => {
